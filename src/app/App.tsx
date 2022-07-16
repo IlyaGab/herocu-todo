@@ -56,6 +56,7 @@ function App({demo = false}: PropsType) {
                         News
                     </Typography>
                     {isLoggedIn && <Button color="inherit" onClick={onClickHandler}>Log out</Button>}
+
                 </Toolbar>
                 {status === 'loading' && <LinearProgress/>}
             </AppBar>
