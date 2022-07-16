@@ -53,7 +53,7 @@ function App({demo = false}: PropsType) {
                         <Menu/>
                     </IconButton>
                     <Typography variant="h6">
-                        <h1>SuperHerocu</h1>
+                        <h1>SuperHerocuPlusNews</h1>
                         News
                     </Typography>
                     {isLoggedIn && <Button color="inherit" onClick={onClickHandler}>Log out</Button>}
